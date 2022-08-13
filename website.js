@@ -71,6 +71,8 @@ window.addEventListener('DOMContentLoaded', function (e) {
 });
 
 // Paddle - CleanSpark
+Paddle.Setup({ vendor: 10660 });
+
 function openCheckout() {
   Paddle.Checkout.open({
     product: 526862,
